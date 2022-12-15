@@ -6,8 +6,16 @@
 [CVIT](https://cvit.iiit.ac.in/), [IIIT-Hyderabad](https://www.iiit.ac.in/)
 
 [Official code release] 
-
-homepage | pdf | supplementary | arxiv | presentation 
+```
+@inproceedings{goel2022styletrf,
+author = {Saini, Saurabh and Narayanan, P. J.},
+title = {Quaternion Factorized Simulated Exposure Fusion for Low Light Image Enhancement},
+year = {2022},
+doi = {10.1145/3571600.3571604},
+booktitle = {Proceedings of the Thirteenth Indian Conference on Computer Vision, Graphics and Image Processing},
+series = {ICVGIP '22}}
+```
+[paper](https://sophont01.github.io/data/docs/QFSEF.pdf) | [poster](https://sophont01.github.io/data/docs/QFSEF_poster.pdf) | arxiv
 
 ## Overview
 
