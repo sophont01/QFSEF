@@ -10,13 +10,10 @@ homepage | pdf | supplementary | arxiv | presentation
 
 ## Overview
 
-![teaser.png](assets/simstack.png)
-<img src='assets/simstack.png' />
-
+![teaser](https://user-images.githubusercontent.com/6546898/207841431-09a313e6-c883-4dc5-a154-c0f96e2ec01a.png)
 _QFSEF: Given a poorly lit image as input (left), we factorize it into multiple illumination consistent layers using a pure quaternion matrix factorization scheme, which we then use to simulate an exposure stack (mid) and fuse to obtain an enhanced image (right)._
 
-![simstack.png](assets/simstack.png)
-
+![simstack](https://user-images.githubusercontent.com/6546898/207841472-03f1eeff-c47c-49a9-ab38-bfe74164d757.png)
 _Simulated exposure stack from a single image. For two scenes types (outdoor vs. indoors) with varying illumination sources (natural vs. artificial), we show our simulated images (top) and underlying specular factors (bottom)._
 
 ## Abstract
