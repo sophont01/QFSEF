@@ -5,7 +5,10 @@
 
 [CVIT](https://cvit.iiit.ac.in/), [IIIT-Hyderabad](https://www.iiit.ac.in/)
 
-[Official code release] 
+**[Official code release]**
+
+![](https://img.shields.io/badge/Matlab-R2022a-green) ![](https://img.shields.io/badge/Python-3.9-green) ![](https://img.shields.io/badge/Ubuntu-22.04-green)
+
 ```
 @inproceedings{goel2022styletrf,
 author = {Saini, Saurabh and Narayanan, P. J.},
@@ -30,7 +33,7 @@ Image Fusion maximizes the visual information at each pixel location by merging 
 
 ## Usage
 
-The code has been build using Matlab R2022a (but should work for > R2019a) and python 3.9
+The code has been build using Matlab R2022a (but should work for > R2019a) and python 3.9. It also depends upon [qtfm toolbox](https://qtfm.sourceforge.io/) for quaternion based processing and adapts codes from [Exposure Fusion](https://mericam.github.io/exposure_fusion/index.html), [GRWF](http://leogrady.net/software/), [BM3D](https://webpages.tuni.fi/foi/GCF-BM3D/) and [qRPCA](https://github.com/takshingchan/spl2016). Please cite the respective papers and look into their License agreements before publishing. We have provided these code in the `libs` and `utils` folders.
 
 * Install required python packages using:
   `pip install -r requirements.txt`
