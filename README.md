@@ -2,6 +2,7 @@
 ## Quaternion Factorized Simulated Exposure Fusion for Low Light Image Enhancement - [ICVGIP 2022](https://events.iitgn.ac.in/2022/icvgip/)
 
 [Saurabh Saini](https://sophont01.github.io/) & [P. J. Narayanan](https://scholar.google.co.in/citations?user=3HKjt_IAAAAJ&hl=en&oi=ao)
+
 [CVIT](https://cvit.iiit.ac.in/), [IIIT-Hyderabad](https://www.iiit.ac.in/)
 
 [Official code release] 
