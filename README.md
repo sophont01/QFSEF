@@ -32,6 +32,6 @@ The code has been build using Matlab R2022a (but should work for > R2019a) and p
 `demo.m` calls `runEF.m` with image paths from `data` folder.
 `runEF.m` calls `utils/qSIM.m` to simulate exposure stack (which internally runs the quaternion factorization function `utils/qFactorize.m`). Then it fuses the simulated stack using `utils/qExposure_fusion.m`  and denoises the fused image by running the python script `denoise.py`. The results are generated in the `results` folder in the root directory. 
 
-* You can raise an issue on github or email the first author (emailID from paper title) in case of any problem. ![teaser.png](assets/simstack.png)
+* You can raise an issue on github or email the first author (emailID from paper title) in case of any problem.
 
 -----
