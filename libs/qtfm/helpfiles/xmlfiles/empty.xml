@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE function SYSTEM "qtfmfunction.dtd">
+<function name = "empty" overload = "both">
+<short>Create empty quaternion/octonion array</short>
+<syntax>q = ClassName.empty</syntax>
+<long>
+<para>
+<code>empty</code> overloads a &matlab; function that creates empty arrays.
+It supports the same parameter profiles as the &matlab; function.
+</para>
+<para>
+At present the class of the components within the created array is the default
+&matlab; double class, since there is no way to specify the class of the
+components.
+</para>
+</long>
+<seealso>
+<matlabfun name = "empty"/>
+</seealso>
+</function>
+
+<!--$Id: empty.xml,v 1.1 2016/06/15 11:24:22 sangwine Exp $-->
