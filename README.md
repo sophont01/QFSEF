@@ -10,11 +10,11 @@ homepage | pdf | supplementary | arxiv | presentation
 
 ## Overview
 
-![teaser.png](../master/assets/teaser.png)
+![teaser.png](assets/simstack.png)
 
 _QFSEF: Given a poorly lit image as input (left), we factorize it into multiple illumination consistent layers using a pure quaternion matrix factorization scheme, which we then use to simulate an exposure stack (mid) and fuse to obtain an enhanced image (right)._
 
-![simstack.png](../master/assets/simstack.png)
+![simstack.png](assets/simstack.png)
 
 _Simulated exposure stack from a single image. For two scenes types (outdoor vs. indoors) with varying illumination sources (natural vs. artificial), we show our simulated images (top) and underlying specular factors (bottom)._
 
@@ -34,6 +34,6 @@ The code has been build using Matlab R2022a (but should work for > R2019a) and p
 `demo.m` calls `runEF.m` with image paths from `data` folder.
 `runEF.m` calls `utils/qSIM.m` to simulate exposure stack (which internally runs the quaternion factorization function `utils/qFactorize.m`). Then it fuses the simulated stack using `utils/qExposure_fusion.m`  and denoises the fused image by running the python script `denoise.py`. The results are generated in the `results` folder in the root directory. 
 
-* You can raise an issue on github or email the first author (emailID from paper title) in case of any problem. 
+* You can raise an issue on github or email the first author (emailID from paper title) in case of any problem. ![teaser.png](assets/simstack.png)
 
 -----
