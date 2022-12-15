@@ -8,16 +8,16 @@
 
 homepage | pdf | supplementary | arxiv | presentation 
 
------
 ## Overview
 
 ![teaser.png](./assets/teaser.png?raw=true)
+
 _QFSEF: Given a poorly lit image as input (left), we factorize it into multiple illumination consistent layers using a pure quaternion matrix factorization scheme, which we then use to simulate an exposure stack (mid) and fuse to obtain an enhanced image (right)._
 
 ![simstack.png](./assets/simstack.png?raw=true)
+
 _Simulated exposure stack from a single image. For two scenes types (outdoor vs. indoors) with varying illumination sources (natural vs. artificial), we show our simulated images (top) and underlying specular factors (bottom)._
 
------
 ## Abstract
 Image Fusion maximizes the visual information at each pixel location by merging content from multiple images in order to produce an enhanced image. Exposure Fusion, specifically, fuses a bracketed exposure stack of poorly lit images to generate a properly illuminated image. Given a single input image, exposure fusion can still be employed on a ‘simulated’ exposure stack, leading to direct single image contrast and low-light enhancement. In this work, we present a novel ‘Quaternion Factorized Simulated Exposure Fusion’ (QFSEF) method by factorizing an input image into multiple illumination consistent layers. To this end, we use an iterative sparse matrix factorization scheme by representing the image as a two-dimensional pure quaternion matrix. Theoretically, our representation is based on the dichromatic reflection model and accounts for the two scene illumination characteristics by factorizing each progressively generated image into separate specular and diffuse components. We empirically prove the advantages of our factorization scheme over other exposure simulation methods by using it for the low-light image enhancement task.
 
