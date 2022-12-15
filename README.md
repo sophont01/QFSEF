@@ -10,6 +10,7 @@ homepage | pdf | supplementary | arxiv | presentation
 
 -----
 ## Overview
+
 ![teaser.png](./assets/teaser.png)
 _QFSEF: Given a poorly lit image as input (left), we factorize it into multiple illumination consistent layers using a pure quaternion matrix factorization scheme, which we then use to simulate an exposure stack (mid) and fuse to obtain an enhanced image (right)._
 
