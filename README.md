@@ -12,7 +12,7 @@
 ```
 @inproceedings{goel2022styletrf,
 author = {Saini, Saurabh and Narayanan, P. J.},
-title = {Quaternion Factorized Simulated Exposure Fusion for Low Light Image Enhancement},
+title = {Quaternion Factorized Simulated Exposure Fusion},
 year = {2022},
 doi = {10.1145/3571600.3571604},
 booktitle = {Proceedings of the Thirteenth Indian Conference on Computer Vision, Graphics and Image Processing},
