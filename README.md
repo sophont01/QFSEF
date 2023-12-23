@@ -10,13 +10,15 @@
 ![](https://img.shields.io/badge/Matlab-R2022a-green) ![](https://img.shields.io/badge/Python-3.9-green) ![](https://img.shields.io/badge/Ubuntu-22.04-green)
 
 ```
-@inproceedings{goel2022styletrf,
+@inproceedings{sainiQFSEF,
 author = {Saini, Saurabh and Narayanan, P. J.},
 title = {Quaternion Factorized Simulated Exposure Fusion},
-year = {2022},
+year = {2023},
+publisher = {Association for Computing Machinery},
 doi = {10.1145/3571600.3571604},
-booktitle = {Proceedings of the Thirteenth Indian Conference on Computer Vision, Graphics and Image Processing},
-series = {ICVGIP '22}}
+articleno = {3},
+series = {ICVGIP '22}
+}
 ```
 [paper](https://sophont01.github.io/data/docs/QFSEF.pdf) | [poster](https://sophont01.github.io/data/docs/QFSEF_poster.pdf) | arxiv
 
@@ -43,6 +45,9 @@ The code has been build using Matlab R2022a (but should work for > R2019a) and p
 `runEF.m` calls `utils/qSIM.m` to simulate exposure stack (which internally runs the quaternion factorization function `utils/qFactorize.m`). Then it fuses the simulated stack using `utils/qExposure_fusion.m`  and denoises the fused image by running the python script `denoise.py`. The results are generated in the `results` folder in the root directory. 
 
 * You can raise an issue on github or email the first author (emailID from paper title) in case of any problem.
+
+## Errata
+A small bug in the code leads to vectorization of the image channels before optimization. This makes the low-rank optimization redundant. This has no effect on the final metrics and quality but the explanation should now be changed from low-rank to L_1 optimization predominently.
 
 ## 
 MIT License
